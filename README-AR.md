@@ -120,7 +120,7 @@ rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/bazzite-nvidia:sta
 - نظام تحديث مخصص يسمح بتحديث النظام وFlatpaks وغيرها مباشرة من واجهة وضع اللعب يعتمد على [uupd](https://github.com/ublue-os/uupd) و[topgrade](https://github.com/topgrade-rs/topgrade).
 - دعم مدمج للإقلاع المزدوج مع ويندوز بفضل ترك تثبيت GRUB من Fedora كما هو.
 - هل تسبب التحديث بعطل يمكنك الرجوع بسهولة إلى النسخة السابقة من Bazzite بفضل خاصية rollback في `rpm-ostree`. يمكنك حتى اختيار صور سابقة عند الإقلاع.
-- Steam وLutris مثبتان مسبقا كحزم مكدسة (layered packages).
+- Steam مثبتان مسبقا كحزم مكدسة (layered package).
 - [Discover Overlay](https://github.com/trigg/Discover) الخاص بـ Discord مثبت مسبقا ويتم تشغيله تلقائيا في وضع اللعب وعلى سطح المكتب إذا كان Discord مثبتا. [اطلع على الوثائق الرسمية هنا](https://trigg.github.io/Discover/bazzite).
 - استخدام ZRAM<sub><sup>(4GB)</sup></sub> بخوارزمية الضغط LZ4 افتراضيا.
 - جداول المعالج [LAVD](https://crates.io/crates/scx_lavd) و[BORE](https://github.com/firelzrd/bore-scheduler) لألعاب سلسة واستجابة عالية.

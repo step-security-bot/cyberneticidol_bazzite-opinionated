@@ -17,6 +17,10 @@ IMAGES = [
     "bazzite-gnome-nvidia",
     "bazzite-nvidia-open",
     "bazzite-gnome-nvidia-open",
+    "bazzite-deck",
+    "bazzite-deck-gnome",
+    "bazzite-deck-nvidia",
+    "bazzite-deck-nvidia-gnome",
 ]
 
 RETRIES = 3

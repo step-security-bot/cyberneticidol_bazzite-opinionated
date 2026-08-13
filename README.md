@@ -108,7 +108,7 @@ Variant designed for usage as an alternative to SteamOS on the Steam Deck, and f
 - Custom update system allows for the OS, Flatpaks, and more to be updated directly from the Game mode UI powered by [uupd](https://github.com/ublue-os/uupd) and [topgrade](https://github.com/topgrade-rs/topgrade).
 - Built in support for Windows dual-boot thanks to Fedora's installation of GRUB being left intact.
 - Update break something? Easily roll back to the previous version of Bazzite thanks to `rpm-ostree`'s rollback functionality. You can even select previous images at boot.
-- Steam and Lutris preinstalled on the image as layered packages.
+- Steam preinstalled on the image as a layered package.
 - Uses ZRAM<sub><sup>(4GB)</sup></sub> with the LZ4 compression algorithm by default.
 - [LAVD](https://crates.io/crates/scx_lavd) and [BORE](https://github.com/firelzrd/bore-scheduler) CPU Schedulers for smooth and responsive gameplay.
 - Kyber I/O scheduler to prevent I/O starvation when installing games or during background `duperemove` process.

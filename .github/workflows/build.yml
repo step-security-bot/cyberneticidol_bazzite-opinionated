@@ -1,7 +1,7 @@
 name: Build Bazzite
 on:
-  schedule:
-    - cron: "40 4 * * 1" # 4:40 utc monday
+#  schedule:
+#    - cron: "40 4 * * 1" # 4:40 utc monday
   pull_request:
     branches:
       - testing
@@ -64,6 +64,10 @@ jobs:
           - bazzite-gnome-nvidia
           - bazzite-nvidia-open
           - bazzite-gnome-nvidia-open
+          #- bazzite-deck
+          #- bazzite-deck-gnome
+          #- bazzite-deck-nvidia
+          #- bazzite-deck-nvidia-gnome
         include:
           - fedora_version: 44
             kernel_flavor: ogc
