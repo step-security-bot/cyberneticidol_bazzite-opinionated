@@ -665,7 +665,7 @@ RUN --mount=type=cache,dst=/var/cache \
     dnf5 config-manager unsetopt skip_if_unavailable && \
     /ctx/cleanup
 
-# Trying a hacky workaround to fix SDDM.
+# FIXME: Trying a hacky workaround to fix SDDM.
 RUN groupadd -o -g 46 plugdev
 
 # Configure KDE & GNOME
@@ -712,7 +712,7 @@ RUN --mount=type=cache,dst=/var/cache \
         inputplumber \
         gamescope-session-ogui-steam \
         steamos-manager-powerstation \
- #       steamos-manager-powerstation-gamescope-session-plus \
+ #FIXME       steamos-manager-powerstation-gamescope-session-plus \
         vpower \
         steam-notif-daemon \
         acpica-tools \
