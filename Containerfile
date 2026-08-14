@@ -711,7 +711,7 @@ RUN --mount=type=cache,dst=/var/cache \
         powerbuttond \
         inputplumber \
         gamescope-session-ogui-steam \
-        steamos-manager-powerstation.x86_64 \
+        steamos-manager-powerstation-0.x86_64 \
         steamos-manager-powerstation-gamescope-session-plus.x86_64 \
         vpower \
         steam-notif-daemon \
