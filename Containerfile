@@ -710,8 +710,10 @@ RUN --mount=type=cache,dst=/var/cache \
         steamdeck-dsp \
         powerbuttond \
         inputplumber \
+        hid-replay \
         gamescope-session-ogui-steam \
         steamos-manager-powerstation \
+        gamemode-news-hook \
         vpower \
         steam-notif-daemon \
         acpica-tools \
