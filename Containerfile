@@ -665,6 +665,10 @@ RUN --mount=type=cache,dst=/var/cache \
     dnf5 config-manager unsetopt skip_if_unavailable && \
     /ctx/cleanup
 
+# Trying a hacky workaround to fix SDDM.
+
+RUN groupadd -o -g 46 plugdev
+
 # Configure KDE & GNOME
 RUN --mount=type=cache,dst=/var/cache \
     --mount=type=cache,dst=/var/log \
