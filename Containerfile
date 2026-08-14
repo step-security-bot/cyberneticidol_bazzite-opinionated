@@ -666,7 +666,6 @@ RUN --mount=type=cache,dst=/var/cache \
     /ctx/cleanup
 
 # Trying a hacky workaround to fix SDDM.
-
 RUN groupadd -o -g 46 plugdev
 
 # Configure KDE & GNOME
@@ -712,8 +711,8 @@ RUN --mount=type=cache,dst=/var/cache \
         powerbuttond \
         inputplumber \
         gamescope-session-ogui-steam \
-        steamos-manager-powerstation \
-        steamos-manager-powerstation-gamescope-session-plus \
+        steamos-manager-powerstation.x86_64 \
+        steamos-manager-powerstation-gamescope-session-plus.x86_64 \
         vpower \
         steam-notif-daemon \
         acpica-tools \
